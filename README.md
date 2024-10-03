@@ -7,4 +7,7 @@
 **English** | [中文](README_CN.md)
 
 **An Immortal Cultivation Mod For Minecraft.**
+
+---
+
 ![LOGO](src/main/resources/assets/daozu/icon.png)
