@@ -1,0 +1,51 @@
+{
+	"schemaVersion": 1,
+	"id": "daozu",
+	"version": "${version}",
+	"name": "DaoZu",
+	"description": "description",
+	"authors": [
+		"develk"
+	],
+	"contact": {
+		"sources": "https://github.com/develk-coder/Daozu-fabric-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/daozu/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"develk.daozu.DaoZu"
+		],
+		"client": [
+			"develk.daozu.DaoZuClient"
+		],
+		"fabric-datagen": [
+			"develk.daozu.DaoZuDataGenerator"
+		]
+	},
+	"mixins": [
+		"daozu.mixins.json",
+		{
+			"config": "daozu.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"官方交流群": "https://qm.qq.com/q/xyHLejXWkE"
+			},
+			"update_checker": false
+		}
+	}
+}

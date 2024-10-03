@@ -1,0 +1,18 @@
+{
+  "item.daozu.broken_spirit_stone": "§b碎灵石",
+  "item.daozu.exquisite_spirit_stone": "极品灵石",
+  "item.daozu.inferior_spirit_stone": "下品灵石",
+  "item.daozu.logo_item": "Logo",
+  "item.daozu.ordinary_spirit_stone": "中品灵石",
+  "item.daozu.superior_spirit_stone": "上品灵石",
+  "item.daozu.test_item": "测试物品",
+  "itemGroup.daozu.daozu_item_group": "道祖",
+  "itemGroup.daozu.test_item_group": "测试",
+  "modmenu.descriptionTranslation.daozu": "道尊我。",
+  "modmenu.nameTranslation.daozu": "道祖",
+  "modmenu.summaryTranslation.daozu": "道尊我。",
+  "tooltip.daozu.broken_spirit_stone.1": "一位修士评论：不配称为灵石，",
+  "tooltip.daozu.broken_spirit_stone.2": "因为它的灵气实在低得可怜。",
+  "tooltip.daozu.click_count": "使用了 %1$s 次",
+  "tooltip.daozu.spiritual_energy": "灵能: %1$s"
+}

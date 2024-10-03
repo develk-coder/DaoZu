@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "daozu:item/superior_spirit_stone"
+  }
+}
