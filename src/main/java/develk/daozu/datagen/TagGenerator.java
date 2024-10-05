@@ -1,7 +1,7 @@
 package develk.daozu.datagen;
 
 import develk.daozu.item.DZItems;
-import develk.daozu.tag.ItemTags;
+import develk.daozu.registry.tag.DZItemTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -15,20 +15,20 @@ public class TagGenerator extends FabricTagProvider.ItemTagProvider {
     
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        getOrCreateTagBuilder(ItemTags.SPIRIT_STONE)
+        getOrCreateTagBuilder(DZItemTags.SPIRIT_STONE)
             .add(DZItems.BROKEN_SPIRIT_STONE)
             .add(DZItems.INFERIOR_SPIRIT_STONE)
             .add(DZItems.ORDINARY_SPIRIT_STONE)
             .add(DZItems.SUPERIOR_SPIRIT_STONE)
             .add(DZItems.EXQUISITE_SPIRIT_STONE);
-        getOrCreateTagBuilder(ItemTags.SPIRIT_ITEM);
-        getOrCreateTagBuilder(ItemTags.SPIRIT_PLANT);
-        getOrCreateTagBuilder(ItemTags.SPIRIT_MATERIAL);
-        getOrCreateTagBuilder(ItemTags.FIRST_RANK_SPIRIT_ITEM);
-        getOrCreateTagBuilder(ItemTags.SECOND_RANK_SPIRIT_ITEM);
-        getOrCreateTagBuilder(ItemTags.THIRD_RANK_SPIRIT_ITEM);
-        getOrCreateTagBuilder(ItemTags.FOURTH_RANK_SPIRIT_ITEM);
-        getOrCreateTagBuilder(ItemTags.FIFTH_RANK_SPIRIT_ITEM);
+        getOrCreateTagBuilder(DZItemTags.SPIRIT_ITEM);
+        getOrCreateTagBuilder(DZItemTags.SPIRIT_PLANT);
+        getOrCreateTagBuilder(DZItemTags.SPIRIT_MATERIAL);
+        getOrCreateTagBuilder(DZItemTags.FIRST_RANK_SPIRIT_ITEM);
+        getOrCreateTagBuilder(DZItemTags.SECOND_RANK_SPIRIT_ITEM);
+        getOrCreateTagBuilder(DZItemTags.THIRD_RANK_SPIRIT_ITEM);
+        getOrCreateTagBuilder(DZItemTags.FOURTH_RANK_SPIRIT_ITEM);
+        getOrCreateTagBuilder(DZItemTags.FIFTH_RANK_SPIRIT_ITEM);
         
     }
 }

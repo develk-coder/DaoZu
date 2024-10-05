@@ -1,7 +1,7 @@
 package develk.daozu.item;
 
 import develk.daozu.component.DZDataComponentTypes;
-import develk.daozu.tag.ItemTags;
+import develk.daozu.registry.tag.DZItemTags;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
@@ -22,7 +22,7 @@ public class SpiritStoneItem extends Item {
             tooltip.add(Text.translatable("tooltip.daozu.broken_spirit_stone.1").formatted(Formatting.GRAY));
             tooltip.add(Text.translatable("tooltip.daozu.broken_spirit_stone.2").formatted(Formatting.GRAY));
         }
-        if (stack.isIn(ItemTags.SPIRIT_STONE)) {
+        if (stack.isIn(DZItemTags.SPIRIT_STONE)) {
             tooltip.add(Text.translatable("tooltip.daozu.spiritual_energy",
                 stack.get(DZDataComponentTypes.SPIRITUAL_ENERGY)).formatted(Formatting.BOLD).formatted(Formatting.GREEN));
         }

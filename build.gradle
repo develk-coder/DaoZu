@@ -12,6 +12,7 @@ base {
 
 repositories {
 	maven { url "https://maven.terraformersmc.com/" }
+	maven { url "https://maven.kyrptonaught.dev"}
 }
 
 loom {
@@ -40,6 +41,8 @@ dependencies {
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
 	// Dependencies
+	modImplementation "net.kyrptonaught:customportalapi:${project.customportalapi_version}"
+	include "net.kyrptonaught:customportalapi:${project.customportalapi_version}"
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 
 }

@@ -16,13 +16,13 @@ public class DZItems {
     public static final Item TEST_ITEM;
     public static final Item LOGO_ITEM;
     
-    public static Item register(String id, Item item) {
+    private static Item register(String id, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(DaoZu.MOD_ID, id), item);
     }
     
     public static void initialize() {
     }
-    //MC Fabric A Immortal Cultivation Mod For Minecraft.
+    
     static {
         BROKEN_SPIRIT_STONE = register("broken_spirit_stone", new SpiritStoneItem(new Item.Settings()
             .component(DZDataComponentTypes.SPIRITUAL_ENERGY, 1)));
