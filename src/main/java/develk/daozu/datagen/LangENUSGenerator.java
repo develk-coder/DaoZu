@@ -15,7 +15,7 @@ public class LangENUSGenerator extends FabricLanguageProvider {
     
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
-        translationBuilder.add(DZItems.BROKEN_SPIRIT_STONE, "§bBroken Spirit Stone");
+        translationBuilder.add(DZItems.BROKEN_SPIRIT_STONE, "§9Broken Spirit Stone");
         translationBuilder.add(DZItems.INFERIOR_SPIRIT_STONE, "Inferior Spirit Stone");
         translationBuilder.add(DZItems.ORDINARY_SPIRIT_STONE, "Ordinary Spirit Stone");
         translationBuilder.add(DZItems.SUPERIOR_SPIRIT_STONE, "Superior Spirit Stone");
@@ -28,6 +28,7 @@ public class LangENUSGenerator extends FabricLanguageProvider {
         translationBuilder.add("tooltip.daozu.broken_spirit_stone.2", "called a spirit stone, given its dismally low Spirit Qi.");
         translationBuilder.add("tooltip.daozu.spiritual_energy", "Spiritual Energy: %1$s");
         translationBuilder.add("tooltip.daozu.click_count", "Used %1$s times");
+        translationBuilder.add("generator.daozu.daozu", "§dDaozu");
         translationBuilder.add("modmenu.nameTranslation.daozu", "DaoZu");
         translationBuilder.add("modmenu.descriptionTranslation.daozu", "Dao respect me.");
         translationBuilder.add("modmenu.summaryTranslation.daozu", "Dao respect me.");

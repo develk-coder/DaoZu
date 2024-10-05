@@ -23,7 +23,7 @@ public class DZDimensions {
         Identifier.of(DaoZu.MOD_ID, "the_cultivation_world"));
     
     public static void bootstrap(Registerable<DimensionType> context) {
-//        游戏内一天为多少游戏刻 1day = 1hour = 72000gt
+//        游戏内一天为多少游戏刻 1day = 1hour = 72000gt 24000
 //        是否有天空光照 true
 //        是否有基岩天花板 false
 //        是否如下界一般不能放水 false
@@ -43,7 +43,7 @@ public class DZDimensions {
 //        怪物生成位置的最大方块光照 0
         
         context.register(THE_CULTIVATION_WORLD_TYPE, new DimensionType(
-            OptionalLong.of(72000),
+            OptionalLong.empty(),
             true,
             false,
             false,

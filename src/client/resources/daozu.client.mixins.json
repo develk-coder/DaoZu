@@ -3,7 +3,7 @@
 	"package": "develk.daozu.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-		"ExampleClientMixin"
+		"CreateWorldScreenMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

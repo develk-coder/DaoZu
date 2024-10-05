@@ -15,7 +15,7 @@ public class LangZHCNGenerator extends FabricLanguageProvider {
     
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
-        translationBuilder.add(DZItems.BROKEN_SPIRIT_STONE, "§b碎灵石");
+        translationBuilder.add(DZItems.BROKEN_SPIRIT_STONE, "§9碎灵石");
         translationBuilder.add(DZItems.INFERIOR_SPIRIT_STONE, "下品灵石");
         translationBuilder.add(DZItems.ORDINARY_SPIRIT_STONE, "中品灵石");
         translationBuilder.add(DZItems.SUPERIOR_SPIRIT_STONE, "上品灵石");
@@ -28,6 +28,7 @@ public class LangZHCNGenerator extends FabricLanguageProvider {
         translationBuilder.add("tooltip.daozu.broken_spirit_stone.2", "因为它的灵气实在低得可怜。");
         translationBuilder.add("tooltip.daozu.spiritual_energy", "灵能: %1$s");
         translationBuilder.add("tooltip.daozu.click_count", "使用了 %1$s 次");
+        translationBuilder.add("generator.daozu.daozu", "§d道祖");
         translationBuilder.add("modmenu.nameTranslation.daozu", "道祖");
         translationBuilder.add("modmenu.descriptionTranslation.daozu", "道尊我。");
         translationBuilder.add("modmenu.summaryTranslation.daozu", "道尊我。");

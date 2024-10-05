@@ -3,6 +3,8 @@
 	"package": "develk.daozu.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
+		"ServerPropertiesHandlerMixin",
+		"ServerPropertiesHandlerMixin$WorldGenPropertiesMixin",
 		"WorldPresetsMixin"
 	],
 	"injectors": {
