@@ -25,11 +25,7 @@
 		]
 	},
 	"mixins": [
-		"daozu.mixins.json",
-		{
-			"config": "daozu.client.mixins.json",
-			"environment": "client"
-		}
+		"daozu.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.5",

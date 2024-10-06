@@ -29,6 +29,5 @@ public class TagGenerator extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(DZItemTags.THIRD_RANK_SPIRIT_ITEM);
         getOrCreateTagBuilder(DZItemTags.FOURTH_RANK_SPIRIT_ITEM);
         getOrCreateTagBuilder(DZItemTags.FIFTH_RANK_SPIRIT_ITEM);
-        
     }
 }

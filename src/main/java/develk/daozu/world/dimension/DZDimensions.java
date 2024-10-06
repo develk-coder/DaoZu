@@ -41,7 +41,7 @@ public class DZDimensions {
 //        是否带有不祥之兆的玩家可以触发袭击 false
 //        怪物生成位置的最大光照 (min, max) 闭区间 (0, 0)
 //        怪物生成位置的最大方块光照 0
-        
+//
         context.register(THE_CULTIVATION_WORLD_TYPE, new DimensionType(
             OptionalLong.empty(),
             true,

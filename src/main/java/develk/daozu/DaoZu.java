@@ -17,19 +17,15 @@ public class DaoZu implements ModInitializer {
 	public static final String MOD_ID = "daozu";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	public static final RegistryKey<WorldPreset> DAOZU = RegistryKey.of(RegistryKeys.WORLD_PRESET,
-		Identifier.of(DaoZu.MOD_ID, "daozu"));
+		Identifier.of(DaoZu.MOD_ID, "the_cultivation_world"));
 	
 	@Override
 	public void onInitialize() {
-		DZDataComponentTypes.initialize();
-		LOGGER.info("DataComponentTypes initialization is complete.");
 		DZItems.initialize();
-		LOGGER.info("Items initialization is complete.");
-		DZItemGroups.initialize();
-		LOGGER.info("ItemGroups initialization is complete.");
 		DZItemTags.initialize();
-		LOGGER.info("ItemTags initialization is complete.");
+		DZItemGroups.initialize();
+		DZDataComponentTypes.initialize();
 		
-		LOGGER.info("Mod initialization is complete.");
+		LOGGER.info("DaoZu initialization is complete.");
 	}
 }

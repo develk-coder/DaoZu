@@ -28,10 +28,9 @@ public class LangZHCNGenerator extends FabricLanguageProvider {
         translationBuilder.add("tooltip.daozu.broken_spirit_stone.2", "因为它的灵气实在低得可怜。");
         translationBuilder.add("tooltip.daozu.spiritual_energy", "灵能: %1$s");
         translationBuilder.add("tooltip.daozu.click_count", "使用了 %1$s 次");
-        translationBuilder.add("generator.daozu.daozu", "§d道祖");
+        translationBuilder.add("generator.daozu.the_cultivation_world", "§3§l修仙界");
         translationBuilder.add("modmenu.nameTranslation.daozu", "道祖");
         translationBuilder.add("modmenu.descriptionTranslation.daozu", "道尊我。");
         translationBuilder.add("modmenu.summaryTranslation.daozu", "道尊我。");
-        
     }
 }

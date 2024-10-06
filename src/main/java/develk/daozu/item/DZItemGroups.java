@@ -35,8 +35,7 @@ public class DZItemGroups {
                 .icon(() -> new ItemStack(DZItems.TEST_ITEM))
                 .entries((displayContext, entries) -> {
                     entries.add(DZItems.TEST_ITEM);
-                    entries.add(DZItems.LOGO_ITEM);
-                }).build());
+                    entries.add(DZItems.LOGO_ITEM);}).build());
     }
     
     private static RegistryKey<ItemGroup> register(String id) {

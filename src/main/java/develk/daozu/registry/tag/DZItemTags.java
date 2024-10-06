@@ -17,7 +17,7 @@ public class DZItemTags {
     public static final TagKey<Item> FOURTH_RANK_SPIRIT_ITEM;
     public static final TagKey<Item> FIFTH_RANK_SPIRIT_ITEM;
     
-    private static TagKey<Item> of(String id) {
+    private static TagKey<Item> register(String id) {
         return TagKey.of(RegistryKeys.ITEM, Identifier.of(DaoZu.MOD_ID, id));
     }
     
@@ -25,14 +25,14 @@ public class DZItemTags {
     }
     
     static {
-        SPIRIT_STONE = of("spirit_stone");
-        SPIRIT_ITEM = of("spirit_item");
-        SPIRIT_PLANT = of("spirit_plant");
-        SPIRIT_MATERIAL = of("spirit_material");
-        FIRST_RANK_SPIRIT_ITEM = of("first_rank_spirit_item");
-        SECOND_RANK_SPIRIT_ITEM = of("second_rank_spirit_item");
-        THIRD_RANK_SPIRIT_ITEM = of("third_rank_spirit_item");
-        FOURTH_RANK_SPIRIT_ITEM = of("fourth_rank_spirit_item");
-        FIFTH_RANK_SPIRIT_ITEM = of("fifth_rank_spirit_item");
+        SPIRIT_STONE = register("spirit_stone");
+        SPIRIT_ITEM = register("spirit_item");
+        SPIRIT_PLANT = register("spirit_plant");
+        SPIRIT_MATERIAL = register("spirit_material");
+        FIRST_RANK_SPIRIT_ITEM = register("first_rank_spirit_item");
+        SECOND_RANK_SPIRIT_ITEM = register("second_rank_spirit_item");
+        THIRD_RANK_SPIRIT_ITEM = register("third_rank_spirit_item");
+        FOURTH_RANK_SPIRIT_ITEM = register("fourth_rank_spirit_item");
+        FIFTH_RANK_SPIRIT_ITEM = register("fifth_rank_spirit_item");
     }
 }

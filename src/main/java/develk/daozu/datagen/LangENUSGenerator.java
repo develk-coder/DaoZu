@@ -28,10 +28,9 @@ public class LangENUSGenerator extends FabricLanguageProvider {
         translationBuilder.add("tooltip.daozu.broken_spirit_stone.2", "called a spirit stone, given its dismally low Spirit Qi.");
         translationBuilder.add("tooltip.daozu.spiritual_energy", "Spiritual Energy: %1$s");
         translationBuilder.add("tooltip.daozu.click_count", "Used %1$s times");
-        translationBuilder.add("generator.daozu.daozu", "§dDaozu");
+        translationBuilder.add("generator.daozu.the_cultivation_world", "§3§lTCW");
         translationBuilder.add("modmenu.nameTranslation.daozu", "DaoZu");
         translationBuilder.add("modmenu.descriptionTranslation.daozu", "Dao respect me.");
         translationBuilder.add("modmenu.summaryTranslation.daozu", "Dao respect me.");
-        
     }
 }
