@@ -1,4 +1,4 @@
-package develk.daozu.world.dimension;
+package develk.daozu.datagen.world;
 
 import develk.daozu.DaoZu;
 import net.minecraft.registry.Registerable;
@@ -7,18 +7,16 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
-import net.minecraft.world.World;
-import net.minecraft.world.dimension.DimensionOptions;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.dimension.DimensionTypes;
 
 import java.util.OptionalLong;
 
-public class DZDimensions {
-    public static final RegistryKey<DimensionOptions> THE_CULTIVATION_WORLD = RegistryKey.of(RegistryKeys.DIMENSION,
-        Identifier.of(DaoZu.MOD_ID, "the_cultivation_world"));
-    public static final RegistryKey<World> THE_CULTIVATION_WORLD_LEVEL = RegistryKey.of(RegistryKeys.WORLD,
-        Identifier.of(DaoZu.MOD_ID, "the_cultivation_world"));
+public class DZDimensionTypes {
+//    public static final RegistryKey<DimensionOptions> THE_CULTIVATION_WORLD = RegistryKey.of(RegistryKeys.DIMENSION,
+//        Identifier.of(DaoZu.MOD_ID, "the_cultivation_world"));
+//    public static final RegistryKey<World> THE_CULTIVATION_WORLD_LEVEL = RegistryKey.of(RegistryKeys.WORLD,
+//        Identifier.of(DaoZu.MOD_ID, "the_cultivation_world"));
     public static final RegistryKey<DimensionType> THE_CULTIVATION_WORLD_TYPE = RegistryKey.of(RegistryKeys.DIMENSION_TYPE,
         Identifier.of(DaoZu.MOD_ID, "the_cultivation_world"));
     

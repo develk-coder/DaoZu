@@ -2,14 +2,9 @@
 	"required": true,
 	"package": "develk.daozu.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ServerPropertiesHandlerMixin",
-		"ServerPropertiesHandlerMixin$WorldGenPropertiesMixin",
-		"WorldPresetsMixin"
-	],
-	"client": [
-		"client.CreateWorldScreenMixin"
-	],
+	"mixins": [],
+	"client": [],
+	"server": [],
 	"injectors": {
 		"defaultRequire": 1
 	}

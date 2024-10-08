@@ -1,12 +1,15 @@
 package develk.daozu.item;
 
 import develk.daozu.component.DZDataComponentTypes;
+import develk.daozu.util.Colors;
+import net.kyori.adventure.audience.Audience;
+import net.kyori.adventure.platform.fabric.FabricClientAudiences;
+import net.kyori.adventure.text.minimessage.tag.resolver.Formatter;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
-import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
@@ -23,8 +26,7 @@ public class CounterItem extends Item {
         super.appendTooltip(stack, context, tooltip, type);
         if (stack.contains(DZDataComponentTypes.CLICK_COUNT)) {
             int clickCount = stack.getOrDefault(DZDataComponentTypes.CLICK_COUNT, 0);
-            tooltip.add(Text.translatable("tooltip.daozu.click_count",
-                clickCount).formatted(Formatting.BOLD).formatted(Formatting.GREEN));
+            tooltip.add(Colors.toText("<color:#58d68d><bold><lang:tooltip.daozu.click_count:'<n1>'>", clickCount));
         }
     }
     
@@ -39,7 +41,6 @@ public class CounterItem extends Item {
         int clickCount = stack.getOrDefault(DZDataComponentTypes.CLICK_COUNT, 0);
         stack.set(DZDataComponentTypes.CLICK_COUNT, ++clickCount);
         user.sendMessage(Text.of(stack.getName()));
-        
         return TypedActionResult.success(stack);
     }
 }
